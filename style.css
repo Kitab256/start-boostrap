@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+     background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg );
+     height: 100vh;
+     background-size: cover;
+     background-position: top;
+}
+header nav .logo{
+    float: left;
+}
+header nav .logo a{
+    padding: 0 16px;
+     color: blue(255, 255, 255, 0.7);
+     font-size: 27px;
+     font-weight: 700;
+}
+
+header nav .logo a:hover{
+    color:greenyellow;
+}
+nav{
+    padding: 27px;
+}
+header nav ul{
+     float: right;
+}
+ header nav ul li{
+     float: left;
+    list-style: none;
+ }
+ header nav ul li a{
+    padding: 0 20px;
+    color: rgb(214, 233, 8);
+    font-size: 19px;
+    transition: 0.8;
+ }
+ header nav ul li a:hover{
+    color: chartreuse;
+ }
+
+ a{
+   text-decoration: none;
+ }
+ .container{
+    width: 80%;
+    margin: auto;
+ }
+ .logo a{
+    color:rgb(225, 255, 0);
+}
+
+.text{
+    color: rgb(17, 210, 37);
+}
+.text h1{
+    font-size: 45px;
+}
+.text.line{
+    width: 47px;
+    height: 20px;
+    margin: 20px auto;
+    border: none;
+    background-color: chocolate;
+}
+.text .text-p{
+    padding: 0 200px;
+    margin-bottom: 50px;
+}
